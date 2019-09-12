@@ -1,0 +1,25 @@
+#head{
+    background-color: #f00d64;
+  }
+  h1 {
+    color: rgb(184, 224, 9);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+  .button1{
+    background-color: rgb(93, 201, 21);
+    border-color: rgb(93, 201, 21);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: white   
+  }
+  h2 {
+      color: rgb(224, 9, 117);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      margin-bottom: 10px;
+    }
+  
+    .color{
+       background-image: linear-gradient(to right,#80ff80,#1aff1a,#ccff33,#33ccff,#0066ff) 
+    }
+    

@@ -1,0 +1,20 @@
+<div class="header text-center text-white" id="head">
+    <h1><br> CUSTOM PIPES</h1>
+    <button type="submit" routerLink="/pipes" class="mr-3 mt-5 button1">Pipes </button>
+    <button type="submit" routerLink="/custompipe" class="mr-3 mt-5 mb-3 button1">Custom Pipes</button>
+    </div>
+    <div class="container-fluid color">
+        <div class="row">
+            <div class="col-lg-4 col-md-4"></div>
+            <div class="col-lg-4 col-md-4">
+                <h2 class="text-center mt-5 mb-5">Power Boost Calculator</h2>
+                <div><b>Normal power:</b><br> <input [(ngModel)]="power" class="form-control"></div><br>
+                <div><b>Boost factor:</b><br> <input [(ngModel)]="factor" class="form-control"></div><br><br>
+                <b>
+                Super Hero Power:  {{power | exponentialStrength: factor}}
+                </b><br/><br>
+            </div>
+            <div class="col-lg-4 col-md-4"></div>
+        </div>
+    </div>
+    <div class="footer  text-center" id="head">@pipes<br><br></div>
